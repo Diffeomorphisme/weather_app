@@ -21,6 +21,6 @@ class WeatherData:
         return json_object
 
 
-city = "Jönköping"
+city = "Göteborg"
 weather = WeatherData(city)
 print("The temperature in", city, "is currently", str(weather.current_temperature_c()))
